@@ -1,0 +1,17 @@
+*
+{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background-image: url("back1.jpg");
+   background-size: cover;
+   color: white;
+   text-align: left;
+   font-size: 30px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-style: italic;
+   padding: 15px;
+   margin: 15px;
+
+}
