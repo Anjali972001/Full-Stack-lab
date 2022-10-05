@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+
+        body
+        {
+            background-image: linear-gradient(rgb(214, 147, 147) 50%,rgb(0, 153, 255));
+        }
+        *
+        {
+            padding:0;
+            margin: 0;
+
+        }
+        fieldset
+        {
+            height: 100%;
+            padding: 10px;
+            margin: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        
+        legend
+        {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+    </style>
+        
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>
+               Personal Details
+            </legend>
+            <label class="name">Full Name</label>
+            <br>
+            <input type="text" name="name">
+            <br>
+            <label class="email">Email-id</label>
+            <br>
+            <input type="email" name="id">
+            <br>
+            <label class="password">Password</label>
+            <br>
+            <input type="password" name="password">
+            <br>
+            <label class="gender">Gender</label>
+            <br>
+            <input type="radio">Male
+            <input type="radio">Female
+            <input type="radio">Others
+            <br>
+            <label >Enter Your address:</label>
+            <br>
+           <textarea name="" id="" cols="30" rows="10"></textarea>
+           <br>
+           <input type="submit" value="sign-up">
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
